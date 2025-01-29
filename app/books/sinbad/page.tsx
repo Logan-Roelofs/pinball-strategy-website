@@ -7,7 +7,7 @@ const bookData = {
       number: 1,
       title: "Layout",
       summary: "",
-      image: "/sinbad.jpg"
+      image: "/static/sinbad.jpg"
     },
     {
       number: 2,
