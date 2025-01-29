@@ -5,6 +5,7 @@
 
 ## To run Localy 
 - `npm run dev`
+- `npm run build` // to make sure it builds
 
 ## To add to github pages 
 - next.config.js 
