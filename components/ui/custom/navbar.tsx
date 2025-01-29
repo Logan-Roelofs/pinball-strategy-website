@@ -7,7 +7,7 @@ export default function Component() {
         <header className="sticky top-0 z-50 w-full border-b bg-white dark:border-gray-800 dark:bg-gray-950">
             <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
                 <Link href="/" className="flex items-center gap-2" prefetch={false}>
-                    <img src="/static/noun-pinball-61489.svg" className="h-6 w-6" alt="Icon" style={{ filter: 'invert(32%) sepia(78%) saturate(366%) hue-rotate(85deg) brightness(92%) contrast(92%)' }} />
+                    <img src="/pinball/static/noun-pinball-61489.svg" className="h-6 w-6" alt="Icon" style={{ filter: 'invert(32%) sepia(78%) saturate(366%) hue-rotate(85deg) brightness(92%) contrast(92%)' }} />
                 </Link>
                 <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
                 </nav>
