@@ -5,15 +5,15 @@ interface Chapter {
   number: number
   title: string
   summary: string
+  image?: string // Add image property
 }
 
-interface BookReviewProps {
+interface PinballReviewProps {
   title: string
-  author: string
   chapters?: Chapter[]
 }
 
-export default function BookReview({ title, author, chapters = [] }: BookReviewProps) {
+export default function PinballReview({ title, chapters = [] }: PinballReviewProps) {
   return (
     <div className=" mx-auto max-w-6xl items-center justify-between md:px-6 p-2">
       <div className="flex flex-col md:flex-row gap-8">
@@ -23,7 +23,6 @@ export default function BookReview({ title, author, chapters = [] }: BookReviewP
             <CardTitle className="text-3xl font-bold">{title}</CardTitle>
           </CardHeader>
           <CardContent>
-            <CardDescription className="text-xl">by {author}</CardDescription>
             <hr className="my-4 border-t border-gray-300" />
           </CardContent>
           <CardContent>
@@ -31,7 +30,7 @@ export default function BookReview({ title, author, chapters = [] }: BookReviewP
               <ul className="space-y-2">
                 {chapters.map((chapter) => (
                   <li key={chapter.number}>
-                    <Link href={`#chapter-${chapter.number}`} className="text-blue-600 hover:underline">
+                    <Link href={`#chapter-${chapter.number}`} className="text-green-700 hover:underline">
                       {chapter.title}
                     </Link>
                   </li>
@@ -53,6 +52,9 @@ export default function BookReview({ title, author, chapters = [] }: BookReviewP
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
+                  {chapter.image && (
+                    <img src={chapter.image} alt={chapter.title} className="mb-4 w-full h-auto max-w-xs" /> // Add max-w-xs class
+                  )}
                   <p className="text-gray-300 ">{chapter.summary}</p>
                 </CardContent>
               </Card>

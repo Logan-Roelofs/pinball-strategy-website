@@ -7,4 +7,14 @@
 - `npm run dev`
 
 ## To add to github pages 
-- settings > pages > source > main > save
+- next.config.js 
+```js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",  // <=== enables static exports
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
+```
+- settings > pages > Github actions 

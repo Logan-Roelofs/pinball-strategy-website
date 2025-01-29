@@ -1,4 +1,4 @@
-import BookReview from '../../../components/ui/custom/bookreview';
+import BookReview from '../../../components/ui/custom/pinballreview';
 
 const bookData = {
   title: "Hidden Potential",

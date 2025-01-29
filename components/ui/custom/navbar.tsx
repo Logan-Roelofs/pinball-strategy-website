@@ -8,7 +8,7 @@ export default function Component() {
         <header className="sticky top-0 z-50 w-full border-b bg-white dark:border-gray-800 dark:bg-gray-950">
             <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
                 <Link href="/" className="flex items-center gap-2" prefetch={false}>
-                    <MdOutlineBookmarkBorder className="h-6 w-6 text-[#0070f3]" />
+                    <MdOutlineBookmarkBorder className="h-6 w-6 text-green-700" />
                 </Link>
                 <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
                 </nav>
