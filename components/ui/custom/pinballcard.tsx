@@ -1,4 +1,4 @@
-import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardTitle } from "@/components/ui/card"
 
 interface BookCardProps {
   title: string

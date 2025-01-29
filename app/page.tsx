@@ -9,21 +9,6 @@ const books = [
     title: "SinBad",
     description: "Gottlieb's 1978 classic electro-mechanical (EM) pinball machine, featuring some big bounce and a lot of drop targets."
   },
-  {
-    link: '/books/hiddenpotential',
-    title: "Hidden Potential",
-    description: "A guide to unlocking the potential of introverts, showing how they can thrive in a world that often favors extroverts."
-  },
-  {
-    link: '/books/thecouragetobedisliked',
-    title: "The Courage to be Disliked",
-    description: "A Japanese philosophy book that offers a new perspective on life and relationships, based on the teachings of Alfred Adler."
-  },
-  {
-    link: '/books/thelegacyjourney',
-    title: "The Legacy Journey",
-    description: "A guide to building wealth and leaving a legacy, offering practical advice on investing, saving, and giving."
-  },
 ]
 
 export default function Home() {
