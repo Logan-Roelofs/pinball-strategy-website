@@ -7,13 +7,12 @@ const bookData = {
       number: 1,
       title: "Layout",
       summary: "",
-      image: "/sinbad.JPG" // Update image path
+      image: "/sinbad.JPG"
     },
     {
       number: 2,
       title: "skill shot",
       summary: "Coming soon",
-      image: "/image2.jpg" // Update image path
     },
   ]
 };
