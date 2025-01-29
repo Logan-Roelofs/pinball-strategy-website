@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const books = [
   {
-    link: '/books/sinbad',
+    link: '/pinball/sinbad',
     title: "SinBad",
     description: "Gottlieb's 1978 classic electro-mechanical (EM) pinball machine, featuring some big bounce and a lot of drop targets."
   },
