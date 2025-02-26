@@ -101,7 +101,7 @@ export default function Page() {
             <CardContent>
               <p >Re-Entry is very important as it prevents your ball from draining once it sinks in the bottom playfield. There are 3 ways to accomplish Re-Entry:</p>
               <ul className="list-disc list-inside">
-                <li>Hit the 4 targets on the right side of the board to light up the "Open Gate" shot, then hit that shot.</li>
+                <li>Hit the 4 targets on the right side of the board to light up the Open Gate shot, then hit that shot.</li>
                 <div className="flex justify-center">
                   <img src={"/static/blackholehowtoopenthereentrygate.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
@@ -112,7 +112,7 @@ export default function Page() {
                 <div className="flex justify-center">
                   <img src={"/static/blackholereenteryshotssss.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
-                <p >If you have your re-entry gate open and the ball sinks, your ball will go back to the top playfield. When this happens try and hit the lower playfield shot again. If you don't hit any other switches the Re-Entry Gate will stay open and you have a free bottom playfield ball</p>
+                <p >If you have your re-entry gate open and the ball sinks, your ball will go back to the top playfield. When this happens try and hit the lower playfield shot again. If you do not hit any other switches the Re-Entry Gate will stay open and you have a free bottom playfield ball</p>
                 <div className="flex justify-center">
                   <img src={"/static/blackholehowtogodown.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
