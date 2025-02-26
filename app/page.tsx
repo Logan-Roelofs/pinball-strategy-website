@@ -7,7 +7,12 @@ const books = [
   {
     link: '/pinball/sinbad',
     title: "SinBad",
-    description: "Gottlieb's 1978 classic electro-mechanical (EM) pinball machine, featuring some big bounce and a lot of drop targets."
+    description: "Gottlieb's 1978 Solid state pinball machine, featuring some big dead bounces and a lot of drop targets."
+  },
+  {
+    link: '/pinball/blackhole',
+    title: "Black Hole",
+    description: "Gottlieb's 1981 Wide body Solid state pinball machine, featuring a unique two-level playfield, the first of its kind!."
   },
 ]
 
