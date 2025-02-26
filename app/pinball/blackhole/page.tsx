@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function Page() {
@@ -43,7 +44,7 @@ export default function Page() {
                   </li>
                   <li>
                     <Link href={`#chapter-6`} className="text-green-700 hover:underline">
-                      What I don't know
+                      What I Do Not know
                     </Link>
                   </li>
                 </ul>
@@ -61,7 +62,7 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>At the beginning of the game, your primary strategy should be to target the "Black Hole" drop targets in sequence. This should be your main focus. The secondary objective here is to inadvertently hit the correct targets to advance the multiball. If you manage to cradle the ball on the left flipper, take the opportunity to aim for the right-side targets to progress the multiball. Once multiball is activated, shift your focus to locking balls and initiating the multiball phase. During the lower playfield multiball, prioritize advancing bonus multipliers and completing all drop targets. Having many multipliers makes it worthwhile to attempt returning to the lower playfield to accumulate more bonuses. However, if your multipliers are few, continue to play your heart out in the upper playfield.</p>
+              <p>At the beginning of the game, your primary strategy should be to target the Black Hole drop targets in sequence. This should be your main focus. The secondary objective here is to inadvertently hit the correct targets to advance the multiball. If you manage to cradle the ball on the left flipper, take the opportunity to aim for the right-side targets to progress the multiball. Once multiball is activated, shift your focus to locking balls and initiating the multiball phase. During the lower playfield multiball, prioritize advancing bonus multipliers and completing all drop targets. Having many multipliers makes it worthwhile to attempt returning to the lower playfield to accumulate more bonuses. However, if your multipliers are few, continue to play your heart out in the upper playfield.</p>
             </CardContent>
             <CardHeader id={`chapter-2`}>
               <CardTitle className="text-2xl font-semibold">
@@ -148,13 +149,13 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p >A non lit "Black Hole" drop target is worth 1k points while a lit one is worth 5k</p>
-              <p >To lite a "Black Hole" drop target you just have to hit black hole in order and lite the orange arrow in front of the drop target</p>
+              <p >A non lit Black Hole drop target is worth 1k points while a lit one is worth 5k</p>
+              <p >To lite a Black Hole drop target you just have to hit black hole in order and lite the orange arrow in front of the drop target</p>
               <p >This is the same idea with the bottom drop targets but you want to lite the right 4 targets on the top playfield to lite these drop targets on the bottom, they are normal worth 500 points but when they are lit they are worth 3k meaning if you lite your 5x bonus and your 3x playfield multiplier each drop target becomes 45k</p>
             </CardContent>
             <CardHeader id={`chapter-6`}>
               <CardTitle className="text-2xl font-semibold" >
-                What I don't know
+                What I Do Not know
               </CardTitle>
             </CardHeader>
             <CardContent>
