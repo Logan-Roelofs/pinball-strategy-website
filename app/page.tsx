@@ -14,6 +14,11 @@ const books = [
     title: "Black Hole",
     description: "Gottlieb's 1981 Wide body Solid state pinball machine, featuring a unique two-level playfield, the first of its kind!."
   },
+  {
+    link: '/pinball/whitewater',
+    title: "White Water",
+    description: "Williams' 1993 Solid state pinball machine, featuring a unique two-level playfield."
+  },
 ]
 
 export default function Home() {
