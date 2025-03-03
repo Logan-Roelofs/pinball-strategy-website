@@ -25,3 +25,5 @@ module.exports = nextConfig;
 
 - settings > pages > Github actions
 
+## Github Actions
+- Make sure not to use any capital letters in the image names
