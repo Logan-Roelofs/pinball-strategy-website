@@ -116,7 +116,7 @@ export default function Page() {
             <CardContent>
               <p>Hit the kickback targets to get 10M+5M (Skill shot this game), Note that the kickback targets might be roaming. Or go for Super skill shot in the left outlane for 25M. </p>
               <div className="flex justify-center">
-                <img src={"/static/congoSkillshot.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congoSkillshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-3`}>
@@ -143,11 +143,11 @@ export default function Page() {
             <CardContent>
               <p>Lock 3 balls here, keep in mind that you need a cretin number of diamonds to light locks 4, 8, 12, ...</p>
               <div className="flex justify-center">
-                <img src={"/static/congoLockShot.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congoLockShot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <p>Once multiball is started hit ramps for Jackpot. If a ball makes it into the back AMY saucer, this will start Super Jackpot lit for approximately 20 seconds. Shoot Super Score upper-upper orbit to collect Super Jackpot. </p>
               <div className="flex justify-center">
-                <img src={"/static/congoMultJack.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congoMultJack.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-6`}>
@@ -158,7 +158,7 @@ export default function Page() {
             <CardContent>
               <p>Shoot left ramp to collect M-A-P letters. Once collected, shoot MAP saucer to collect award. Once a route is completed, the map progresses to the next route. Completing routes are rare.</p>
               <div className="flex justify-center">
-                <img src={"/static/congomap.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congomap.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
                 <div className="table-container">
                 <table className="table-auto border-collapse border border-gray-400">
@@ -247,7 +247,7 @@ export default function Page() {
                 <li>50M (repeats for subsequent completions)</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/congogray.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congogray.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-9`}>
@@ -258,7 +258,7 @@ export default function Page() {
             <CardContent>
               <p>Hit the We are Watching You targets 5 times to light video mode. Then start video mode in the scoop. AVOID rocks and hippos. Hold flippers do not just press them.</p>
               <div className="flex justify-center">
-                <img src={"/static/congowearewatchingyou.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congowearewatchingyou.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-10`}>
@@ -269,7 +269,7 @@ export default function Page() {
             <CardContent>
               <p>This is always list other than in multiball or a timed mode. This will start a video mode where you should always go left and hope you make it far.</p>
               <div className="flex justify-center"> 
-                <img src={"/static/congomine.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congomine.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-11`}>
@@ -280,7 +280,7 @@ export default function Page() {
             <CardContent>
               <p>If you start this trap up and do nothing for the 20 seconds it last. You can not do anything else but hit the satellite for almost no points.</p>
               <div className="flex justify-center"> 
-                <img src={"/static/congosat.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congosat.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-12`}>
