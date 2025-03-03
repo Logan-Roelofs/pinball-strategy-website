@@ -280,7 +280,7 @@ export default function Page() {
             <CardContent>
               <p>If you start this trap up and do nothing for the 20 seconds it last. You can not do anything else but hit the satellite for almost no points.</p>
               <div className="flex justify-center"> 
-                <img src={"/static/congosat.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congosat.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs"/>
               </div>
             </CardContent>
             <CardHeader id={`chapter-12`}>
