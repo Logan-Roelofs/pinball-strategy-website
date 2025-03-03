@@ -116,7 +116,7 @@ export default function Page() {
             <CardContent>
               <p>Hit the kickback targets to get 10M+5M (Skill shot this game), Note that the kickback targets might be roaming. Or go for Super skill shot in the left outlane for 25M. </p>
               <div className="flex justify-center">
-                <img src={"/static/congoSkillshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congoskillshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-3`}>
@@ -143,11 +143,11 @@ export default function Page() {
             <CardContent>
               <p>Lock 3 balls here, keep in mind that you need a cretin number of diamonds to light locks 4, 8, 12, ...</p>
               <div className="flex justify-center">
-                <img src={"/static/congoLockShot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congolockshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <p>Once multiball is started hit ramps for Jackpot. If a ball makes it into the back AMY saucer, this will start Super Jackpot lit for approximately 20 seconds. Shoot Super Score upper-upper orbit to collect Super Jackpot. </p>
               <div className="flex justify-center">
-                <img src={"/static/congoMultJack.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <img src={"/static/congomultjack.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-6`}>
