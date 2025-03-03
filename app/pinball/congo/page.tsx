@@ -19,69 +19,69 @@ export default function Page() {
                 <ul className="space-y-2">
                   <li>
                     <Link href={`#chapter-1`} className="text-green-700 hover:underline">
-                      The Game Plan
+                    The Game Plan
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-2`} className="text-green-700 hover:underline">
-                      Skill Shot
+                    Skill Shot
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-3`} className="text-green-700 hover:underline">
-                      Hazards and Rafts
+                    Collecting Diamonds
                     </Link>
                   </li><li>
                     <Link href={`#chapter-4`} className="text-green-700 hover:underline">
-                      Bounceback
+                    Super Multiball (Wizard Mode)
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-5`} className="text-green-700 hover:underline">
-                      Whirlpool Awards
+                    Multiball
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-6`} className="text-green-700 hover:underline">
-                      Spine Chiller
+                    M-A-P
                     </Link>
                   </li><li>
                     <Link href={`#chapter-7`} className="text-green-700 hover:underline">
-                      Boulder Garden
+                    A-M-Y Mode
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-8`} className="text-green-700 hover:underline">
-                      River Class
+                    GRAY Attack
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-9`} className="text-green-700 hover:underline">
-                      Bigfoot Hotfoot
+                    Video Mode
                     </Link>
                   </li><li>
                     <Link href={`#chapter-10`} className="text-green-700 hover:underline">
-                      Camera Craze
+                    Mine Shaft
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-11`} className="text-green-700 hover:underline">
-                      Lost Mine
+                    Satellite Transfer
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-12`} className="text-green-700 hover:underline">
-                      Multi ball
+                    Extra Balls
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-13`} className="text-green-700 hover:underline">
-                      Vacation Bonus
+                    Light kickback
                     </Link>
                   </li>
                   <li>
                     <Link href={`#chapter-14`} className="text-green-700 hover:underline">
-                      Still need to find out
+                    Mystery 
                     </Link>
                   </li>
                 </ul>
@@ -296,6 +296,22 @@ export default function Page() {
                 <li>GRAY Gorilla Defeated 4th time lights left </li>
                 <li>Complete Bonus 5x lights (left) </li>
               </ul>
+            </CardContent>
+            <CardHeader id={`chapter-13`}>
+              <CardTitle className="text-2xl font-semibold">
+              Light kickback
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Hit the 3 skill shoot/kickback  targets to light kickback</p>
+            </CardContent>
+            <CardHeader id={`chapter-14`}>
+              <CardTitle className="text-2xl font-semibold">
+              Mystery
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Spell Z-I-N-J to light up Mystery at scoop</p>
             </CardContent>
           </Card>
         </main>
