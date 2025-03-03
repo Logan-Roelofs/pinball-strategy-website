@@ -14,7 +14,7 @@ export default function Page() {
             </CardHeader>
             <CardContent>
               <nav>
-                <p className="mb-4">My Highest Score: ???,???,???</p>
+                <p className="mb-4">My Highest Score: 696,674,770</p>
                 <p className="mb-4">Pin-Golf Target: 340,000,000</p>
                 <ul className="space-y-2">
                   <li>

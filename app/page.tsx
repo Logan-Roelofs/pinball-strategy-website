@@ -19,6 +19,11 @@ const books = [
     title: "White Water",
     description: "Williams' 1993 Solid state pinball machine, featuring a unique two-level playfield."
   },
+  {
+    link: '/pinball/congo',
+    title: "Congo",
+    description: "Williams' 1995 Solid state pinball machine, featuring a gorilla infested mini playfield."
+  },
 ]
 
 export default function Home() {
