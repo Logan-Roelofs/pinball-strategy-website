@@ -145,7 +145,7 @@ export default function Page() {
               <div className="flex justify-center">
                 <img src={"/static/congoLockShot.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
-              <p>Once multiball is started hit ramps for Jackpot. If a ball makes it into the back AMY saucer, this will start Super Jackpot lit for approximately 20 seconds. Shoot  "Super Score" upper-upper orbit to collect Super Jackpot. </p>
+              <p>Once multiball is started hit ramps for Jackpot. If a ball makes it into the back AMY saucer, this will start Super Jackpot lit for approximately 20 seconds. Shoot Super Score upper-upper orbit to collect Super Jackpot. </p>
               <div className="flex justify-center">
                 <img src={"/static/congoMultJack.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
@@ -177,8 +177,8 @@ export default function Page() {
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Re-light Diamonds</td>
-                    <td className="border border-gray-400 px-2 py-1">"?" 5 Diamonds</td>
-                    <td className="border border-gray-400 px-2 py-1">"?" 5 Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">? 5 Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">? 5 Diamonds</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Jungle Jackpot</td>
@@ -187,8 +187,8 @@ export default function Page() {
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Light Extra Ball</td>
-                    <td className="border border-gray-400 px-2 py-1">"?" Re-light Diamonds</td>
-                    <td className="border border-gray-400 px-2 py-1">"?" Re-light Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">? Re-light Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">? Re-light Diamonds</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Re-light Diamonds</td>
@@ -212,7 +212,7 @@ export default function Page() {
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Diamond Hunt Multiball</td>
-                    <td className="border border-gray-400 px-2 py-1">"?" 50 Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">? 50 Diamonds</td>
                     <td className="border border-gray-400 px-2 py-1">Diamond Hunt Multiball</td>
                   </tr>
                   </tbody>
@@ -238,7 +238,7 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Spell Gray to start Mini playfild. Spell CONGO, each target is worth 10M. Don't play random there is some skill. If you spell CONGO you get these awards in order.</p>
+              <p>Spell Gray to start Mini playfild. Spell CONGO, each target is worth 10M. Do not play random there is some skill. If you spell CONGO you get these awards in order.</p>
               <ul className="list-disc list-inside">
                 <li>20 Diamonds</li>
                 <li>Multiball</li>
@@ -256,7 +256,7 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Hit the "We are Watching You" targets 5 times to light video mode. Then start video mode in the scoop. AVOID rocks and hippos. Hold flippers don't just press them.</p>
+              <p>Hit the We are Watching You targets 5 times to light video mode. Then start video mode in the scoop. AVOID rocks and hippos. Hold flippers do not just press them.</p>
               <div className="flex justify-center">
                 <img src={"/static/congowearewatchingyou.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
