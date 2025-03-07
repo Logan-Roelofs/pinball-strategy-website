@@ -14,8 +14,8 @@ export default function Page() {
             </CardHeader>
             <CardContent>
               <nav>
-                <p className="mb-4">My Highest Score: ???,???,???</p>
-                <p className="mb-4">Pin-Golf Target: 539,000,000</p>
+                <p className="mb-4">My Highest Score: 114,430</p>
+                <p className="mb-4">Pin-Golf Target: 30,000</p>
                 <ul className="space-y-2">
                   <li>
                     <Link href={`#chapter-1`} className="text-green-700 hover:underline">
