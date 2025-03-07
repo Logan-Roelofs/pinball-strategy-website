@@ -9,7 +9,7 @@ export default function Page() {
         <main className="w-full md:w-3/5">
           <Card className="flex flex-col max-h-screen max-h-fit">
             <CardHeader>
-              <CardTitle className="text-3xl font-bold">Congo</CardTitle>
+              <CardTitle className="text-3xl font-bold">AbraCadAbra</CardTitle>
               <hr className="my-4 border-t border-gray-300" />
             </CardHeader>
             <CardContent>

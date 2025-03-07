@@ -26,7 +26,7 @@ const books = [
   },
   {
     link: '/pinball/abracadabra',
-    title: "abracadabra",
+    title: "AbraCadAbra",
     description: "Gottlieb's 1975 (Electro) Mechanical pinball machine, featuring some magical shot and a lot of drop targets."
   },
 ]
