@@ -24,6 +24,11 @@ const books = [
     title: "Congo",
     description: "Williams' 1995 Solid state pinball machine, featuring a gorilla infested mini playfield."
   },
+  {
+    link: '/pinball/abracadabra',
+    title: "abracadabra",
+    description: "Gottlieb's 1975 (Electro) Mechanical pinball machine, featuring some magical shot and a lot of drop targets."
+  },
 ]
 
 export default function Home() {
