@@ -29,6 +29,11 @@ const books = [
     title: "AbraCadAbra",
     description: "Gottlieb's 1975 (Electro) Mechanical pinball machine, featuring some magical shot and a lot of drop targets."
   },
+  {
+    link: '/pinball/harlemglobetrotters',
+    title: "Harlem Globetrotters",
+    description: "Bally's 1979 Solid state pinball machine, featuring spinners spinners and more spinners."
+  },
 ]
 
 export default function Home() {

@@ -14,30 +14,8 @@ export default function Page() {
             </CardHeader>
             <CardContent>
               <nav>
-                <p className="mb-4">My Highest Score: 407,460</p>
+                <p className="mb-4">My Highest Score: 484,940</p>
                 <p className="mb-4">Pin-Golf Target: 60,000</p>
-                <ul className="space-y-2">
-                  <li>
-                    <Link href={`#chapter-1`} className="text-green-700 hover:underline">
-                    Layout
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-2`} className="text-green-700 hover:underline">
-                    The Game Plan
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-3`} className="text-green-700 hover:underline">
-                    How to Multiply Bonuses
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-4`} className="text-green-700 hover:underline">
-                    How to add Bonuses
-                    </Link>
-                  </li>
-                </ul>
               </nav>
             </CardContent>
           </Card>
@@ -46,24 +24,13 @@ export default function Page() {
         {/* Main content */}
         <main className="w-full md:w-3/5">
           <Card >
-            <CardHeader id={`chapter-1`}>
-              <CardTitle className="text-2xl font-semibold">
-              Layout
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p>Sinbad has a very simple layout that does not need explaining, the hardest shot in the game is the left orbit 1. Dead bounce a lot, but nudge the machine up every time you dead bounce 2. The hardest and most dangerous shot in the game is the left orbit 3. You can cradle the ball on the leftmost and rightmost flippers. The strategy</p>
-              <div className="flex justify-center">
-                <img src={"/static/sinbad.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
-              </div>
-            </CardContent>
             <CardHeader id={`chapter-2`}>
               <CardTitle className="text-2xl font-semibold">
               The Game Plan
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Bonuses are the most important thing in Sinbad. Get your bonus multipliers and dead bounce with a nudge as much as you can. How to Multiply Bonuses How to Multiply Bonuses</p>
+              <p>Get your bonus multipliers by hitting drop targets in order, that is really it. Bale out shots are the left rollovers and the middle spinner.</p>
             </CardContent>
             <CardHeader id={`chapter-3`}>
               <CardTitle className="text-2xl font-semibold">
@@ -71,7 +38,7 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Hit the drop targets in order of white, yellow, blue, and red to get the bonus multipliers respectively. For example, if you have all of the drop targets down except for the white one, you will have no bonus multipliers. How to add Bonuses How to add Bonuses</p>
+              <p>Hit the drop targets in order of white, yellow, blue, and red to get the respective bonus multipliers. Note that you are able to hit targets out of order, but you will not get the bonus multipliers till the previous drop targets are cleared.</p>
               <div className="flex justify-center">
                 <img src={"/static/sinbaddroptargets.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>

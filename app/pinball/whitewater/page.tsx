@@ -99,7 +99,7 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Prioritize Whirlpool Awards and lit Hazards early. During Multiball Focus on Double/Triple Jackpots during Multiball for massive scores.</p>
+              <p>Prioritize Whirlpool Awards and lit Hazards early. During Multiball Focus on Double/Triple Jackpots for massive scores.</p>
             </CardContent>
             <CardHeader id={`chapter-2`}>
               <CardTitle className="text-2xl font-semibold">
