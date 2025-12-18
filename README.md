@@ -14,25 +14,3 @@
 </div>
 
 I love the thrill of playing pinball, but it's not always fun when you're standing at a machine and realize you have no idea how to play it. That's why I created this website: to provide quick, easy-to-reference guides for pinball machines, so you can dive into a game with confidence and focus on scoring big. Whether you're a seasoned competitor or just starting out, I hope this resource helps you get the most out of every game. After all, pinball is meant to be fun, and with a little strategy, it can be even more rewarding!
-
-## Google Analytics Setup
-
-This site includes Google Analytics tracking. To enable it:
-
-1. **Get your Google Analytics Tracking ID:**
-   - Go to [Google Analytics](https://analytics.google.com/)
-   - Create a property or use an existing one
-   - Copy your Measurement ID (format: `G-XXXXXXXXXX`)
-
-2. **For local development:**
-   - Create a `.env.local` file in the root directory
-   - Add: `NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX` (replace with your actual ID)
-
-3. **For GitHub Pages deployment:**
-   - Go to your repository Settings → Secrets and variables → Actions
-   - Click "New repository secret"
-   - Name: `NEXT_PUBLIC_GA_ID`
-   - Value: Your Google Analytics Measurement ID (e.g., `G-XXXXXXXXXX`)
-   - Click "Add secret"
-
-The Google Analytics script will automatically load on all pages once the environment variable is set.
