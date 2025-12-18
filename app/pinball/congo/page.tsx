@@ -13,78 +13,52 @@ export default function Page() {
               <hr className="my-4 border-t border-gray-300" />
             </CardHeader>
             <CardContent>
+              <div className="mb-4 flex gap-4 text-sm">
+                <p><span className="font-semibold">Highest Score:</span> 2,311,184,340</p>
+                <p><span className="font-semibold">Pin-Golf Target:</span> 539,000,000</p>
+              </div>
               <nav>
-                <p className="mb-4">My Highest Score: ???,???,???</p>
-                <p className="mb-4">Pin-Golf Target: 539,000,000</p>
-                <ul className="space-y-2">
-                  <li>
-                    <Link href={`#chapter-1`} className="text-green-700 hover:underline">
-                    The Game Plan
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-2`} className="text-green-700 hover:underline">
-                    Skill Shot
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-3`} className="text-green-700 hover:underline">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-1 text-sm">
+                  <Link href={`#chapter-1`} className="text-green-700 hover:underline hover:text-green-800 py-1">
+                    The Game Plan (Overview)
+                  </Link>
+                  <Link href={`#chapter-2`} className="text-green-700 hover:underline hover:text-green-800 py-1">
+                    Skill Shot (Ball Start)
+                  </Link>
+                  <Link href={`#chapter-3`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     Collecting Diamonds
-                    </Link>
-                  </li><li>
-                    <Link href={`#chapter-4`} className="text-green-700 hover:underline">
-                    Super Multiball (Wizard Mode)
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-5`} className="text-green-700 hover:underline">
-                    Multiball
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-6`} className="text-green-700 hover:underline">
+                  </Link>
+                  <Link href={`#chapter-4`} className="text-green-700 hover:underline hover:text-green-800 py-1">
+                    Multiball (Main)
+                  </Link>
+                  <Link href={`#chapter-5`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     M-A-P
-                    </Link>
-                  </li><li>
-                    <Link href={`#chapter-7`} className="text-green-700 hover:underline">
+                  </Link>
+                  <Link href={`#chapter-6`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     A-M-Y Mode
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-8`} className="text-green-700 hover:underline">
+                  </Link>
+                  <Link href={`#chapter-7`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     GRAY Attack
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-9`} className="text-green-700 hover:underline">
+                  </Link>
+                  <Link href={`#chapter-8`} className="text-green-700 hover:underline hover:text-green-800 py-1">
+                    Mystery
+                  </Link>
+                  <Link href={`#chapter-9`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     Video Mode
-                    </Link>
-                  </li><li>
-                    <Link href={`#chapter-10`} className="text-green-700 hover:underline">
+                  </Link>
+                  <Link href={`#chapter-10`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     Mine Shaft
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-11`} className="text-green-700 hover:underline">
+                  </Link>
+                  <Link href={`#chapter-11`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     Satellite Transfer
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-12`} className="text-green-700 hover:underline">
+                  </Link>
+                  <Link href={`#chapter-12`} className="text-green-700 hover:underline hover:text-green-800 py-1">
                     Extra Balls
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-13`} className="text-green-700 hover:underline">
-                    Light kickback
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`#chapter-14`} className="text-green-700 hover:underline">
-                    Mystery 
-                    </Link>
-                  </li>
-                </ul>
+                  </Link>
+                  <Link href={`#chapter-13`} className="text-green-700 hover:underline hover:text-green-800 py-1">
+                    Super Multiball (Wizard Mode)
+                  </Link>
+                </div>
               </nav>
             </CardContent>
           </Card>
@@ -95,7 +69,7 @@ export default function Page() {
           <Card >
             <CardHeader id={`chapter-1`}>
               <CardTitle className="text-2xl font-semibold">
-                The Game Plan
+                The Game Plan (Overview)
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -110,11 +84,15 @@ export default function Page() {
             </CardContent>
             <CardHeader id={`chapter-2`}>
               <CardTitle className="text-2xl font-semibold">
-                Skill Shot
+                Skill Shot (Ball Start)
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Hit the kickback targets to get 10M+5M (Skill shot this game), Note that the kickback targets might be roaming. Or go for Super skill shot in the left outlane for 25M. </p>
+              <ul className="list-disc list-inside">
+                <li>Hit the kickback targets to get 10M + 5M (standard skill shot)</li>
+                <li>Note that the kickback targets might be roaming</li>
+                <li>Or go for Super Skill Shot in the left outlane for 25M</li>
+              </ul>
               <div className="flex justify-center">
                 <img src={"/static/congoskillshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
@@ -125,38 +103,49 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Collect diamonds to light locks, number of diamonds required is 4, 8, 12, ... Hit all light diamonds shots to relight diamond shots. Hitting the bottom 2 saucers will relight a diamond shot (only when the saucers are not light for a diamond shot). You can get diamonds through other awards and modes. Every 100 diamonds awards a Super Multiball (Wizard Mode)</p>
+              <ul className="list-disc list-inside">
+                <li>Collect diamonds to light locks (number of diamonds required: 4, 8, 12, ...)</li>
+                <li>Hit all lit diamond shots to relight diamond shots</li>
+                <li>Hitting the bottom 2 saucers will relight a diamond shot (only when those saucers are not already lit for diamonds)</li>
+                <li>You can earn diamonds through other awards and modes</li>
+                <li>Every 100 diamonds awards Super Multiball (Wizard Mode)</li>
+              </ul>
             </CardContent>
             <CardHeader id={`chapter-4`}>
               <CardTitle className="text-2xl font-semibold">
-                Super Multiball (Wizard Mode)
+                Multiball (Main)
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>4 ball multiball where ramps and lower saucers are worth 10M. Super Jackpot for defeating gorilla in lower playfield for 50M. Relight Super Jackpot by scoring a Jackpot.</p>
-            </CardContent>
-            <CardHeader id={`chapter-5`}>
-              <CardTitle className="text-2xl font-semibold">
-                Multiball
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p>Lock 3 balls here, keep in mind that you need a cretin number of diamonds to light locks 4, 8, 12, ...</p>
+              <ul className="list-disc list-inside">
+                <li>Lock 3 balls to start Multiball</li>
+                <li>Keep in mind you need a certain number of diamonds to light locks: 4, 8, 12, ...</li>
+              </ul>
               <div className="flex justify-center">
                 <img src={"/static/congolockshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
-              <p>Once multiball is started hit ramps for Jackpot. If a ball makes it into the back AMY saucer, this will start Super Jackpot lit for approximately 20 seconds. Shoot Super Score upper-upper orbit to collect Super Jackpot. </p>
+              <p className="font-semibold mt-4">Once multiball is started:</p>
+              <ul className="list-disc list-inside">
+                <li>Hit ramps for Jackpots</li>
+                <li>If a ball makes it into the back AMY saucer, Super Jackpot is lit for ~20 seconds</li>
+                <li>Shoot the upper–upper orbit (Super Score) to collect Super Jackpot</li>
+              </ul>
               <div className="flex justify-center">
                 <img src={"/static/congomultjack.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
-            <CardHeader id={`chapter-6`}>
+            <CardHeader id={`chapter-5`}>
               <CardTitle className="text-2xl font-semibold">
                 M-A-P
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Shoot left ramp to collect M-A-P letters. Once collected, shoot MAP saucer to collect award. Once a route is completed, the map progresses to the next route. Completing routes are rare.</p>
+              <ul className="list-disc list-inside">
+                <li>Shoot the left ramp to collect M-A-P letters</li>
+                <li>Once collected, shoot the MAP saucer to collect an award</li>
+                <li>Once a route is completed, the map progresses to the next route</li>
+                <li>Completing all routes is rare</li>
+              </ul>
               <div className="flex justify-center">
                 <img src={"/static/congomap.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
@@ -177,8 +166,8 @@ export default function Page() {
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Re-light Diamonds</td>
-                    <td className="border border-gray-400 px-2 py-1">? 5 Diamonds</td>
-                    <td className="border border-gray-400 px-2 py-1">? 5 Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">+5 Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">+5 Diamonds</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Jungle Jackpot</td>
@@ -187,8 +176,8 @@ export default function Page() {
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Light Extra Ball</td>
-                    <td className="border border-gray-400 px-2 py-1">? Re-light Diamonds</td>
-                    <td className="border border-gray-400 px-2 py-1">? Re-light Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">Re-light Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">Re-light Diamonds</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Re-light Diamonds</td>
@@ -212,33 +201,46 @@ export default function Page() {
                   </tr>
                   <tr>
                     <td className="border border-gray-400 px-2 py-1">Diamond Hunt Multiball</td>
-                    <td className="border border-gray-400 px-2 py-1">? 50 Diamonds</td>
+                    <td className="border border-gray-400 px-2 py-1">+50 Diamonds</td>
                     <td className="border border-gray-400 px-2 py-1">Diamond Hunt Multiball</td>
                   </tr>
                   </tbody>
                 </table>
+                <p className="mt-4 font-semibold">Notes:</p>
                 <ul className="list-disc list-inside">
-                <li>Diamond Hunt Multiball- 2 ball multiball, awarded at Mystery or MAP, all diamond shots are lit for 2 diamonds each.</li>
-                <li> Skill Fire- flippers die and you have 20 seconds to shoot as many skill shots as you can. (This can be the biggest points in the game as the points from the last skill shot stack on top of each other)</li>
+                <li>Diamond Hunt Multiball – 2-ball multiball. All diamond shots are lit for 2 diamonds each.</li>
+                <li>Skill Fire – Flippers die and you have 20 seconds to shoot as many skill shots as possible. This can be huge points since the value stacks.</li>
                 <li>Ends when one or both balls drain.</li>
               </ul>
                 </div>
             </CardContent>
-            <CardHeader id={`chapter-7`}>
+            <CardHeader id={`chapter-6`}>
               <CardTitle className="text-2xl font-semibold">
               A-M-Y Mode 
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>I am not to sure about this one, but hit the upper orbit 3 times</p>
+              <ul className="list-disc list-inside">
+                <li>Shoot the upper orbit to collect A-M-Y letters</li>
+                <li>Completing A-M-Y starts a timed mode</li>
+                <li>Shoot flashing major shots (ramps/orbits) for increasing values</li>
+                <li>Completing the mode awards diamonds and progresses toward MAP and multiball features</li>
+                <li>Not the highest scoring mode, but very helpful for diamond progression</li>
+              </ul>
             </CardContent>
-            <CardHeader id={`chapter-8`}>
+            <CardHeader id={`chapter-7`}>
               <CardTitle className="text-2xl font-semibold">
               GRAY Attack
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Spell Gray to start Mini playfild. Spell CONGO, each target is worth 10M. Do not play random there is some skill. If you spell CONGO you get these awards in order.</p>
+              <ul className="list-disc list-inside">
+                <li>Spell G-R-A-Y to start the mini playfield</li>
+                <li>Spell C-O-N-G-O</li>
+                <li>Each target is worth 10M</li>
+                <li>Do not shoot randomly — there is definite strategy</li>
+              </ul>
+              <p className="font-semibold mt-4">Spelling CONGO awards the following in order:</p>
               <ul className="list-disc list-inside">
                 <li>20 Diamonds</li>
                 <li>Multiball</li>
@@ -250,13 +252,27 @@ export default function Page() {
                 <img src={"/static/congogray.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
+            <CardHeader id={`chapter-8`}>
+              <CardTitle className="text-2xl font-semibold">
+              Mystery
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Spell Z-I-N-J to light Mystery at the scoop.</p>
+            </CardContent>
             <CardHeader id={`chapter-9`}>
               <CardTitle className="text-2xl font-semibold">
               Video Mode
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Hit the We are Watching You targets 5 times to light video mode. Then start video mode in the scoop. AVOID rocks and hippos. Hold flippers do not just press them.</p>
+              <ul className="list-disc list-inside">
+                <li>Hit the "We Are Watching You" targets 5 times to light Video Mode</li>
+                <li>Start Video Mode at the scoop</li>
+                <li>Avoid rocks and hippos</li>
+                <li>Hold flippers — do not tap</li>
+                <li>Timing is more important than speed</li>
+              </ul>
               <div className="flex justify-center">
                 <img src={"/static/congowearewatchingyou.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
@@ -267,7 +283,12 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>This is always list other than in multiball or a timed mode. This will start a video mode where you should always go left and hope you make it far.</p>
+              <ul className="list-disc list-inside">
+                <li>This is always lit, except during multiball or timed modes</li>
+                <li>Starts a video-style mode</li>
+                <li>Always go left</li>
+                <li>Hope you make it far — it's mostly risk/reward</li>
+              </ul>
               <div className="flex justify-center"> 
                 <img src={"/static/congomine.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
               </div>
@@ -278,7 +299,12 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>If you start this trap up and do nothing for the 20 seconds it last. You can not do anything else but hit the satellite for almost no points.</p>
+              <ul className="list-disc list-inside">
+                <li>Timed mode lasting about 20 seconds</li>
+                <li>While active, you can't really do anything else</li>
+                <li>Shoot the satellite repeatedly</li>
+                <li>Scores very little and is mostly a stall mode</li>
+              </ul>
               <div className="flex justify-center"> 
                 <img src={"/static/congosat.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs"/>
               </div>
@@ -289,29 +315,27 @@ export default function Page() {
               </CardTitle>
             </CardHeader>
             <CardContent>
+              <p>Extra Balls can be lit by:</p>
               <ul className="list-disc list-inside">
-                <li>MAP award lights left orbit </li>
-                <li>3 Volcano Ramps (based on operator setting) lights Volcano Ramp (right) </li>
-                <li>Mystery lights left orbit </li>
-                <li>GRAY Gorilla Defeated 4th time lights left </li>
-                <li>Complete Bonus 5x lights (left) </li>
+                <li>MAP award → Left orbit</li>
+                <li>3 Volcano Ramps (operator setting) → Volcano Ramp (Right)</li>
+                <li>Mystery → Left orbit</li>
+                <li>GRAY Gorilla defeated 4th time → Left orbit</li>
+                <li>Complete Bonus 5X → Left orbit</li>
               </ul>
             </CardContent>
             <CardHeader id={`chapter-13`}>
               <CardTitle className="text-2xl font-semibold">
-              Light kickback
+                Super Multiball (Wizard Mode)
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Hit the 3 skill shoot/kickback  targets to light kickback</p>
-            </CardContent>
-            <CardHeader id={`chapter-14`}>
-              <CardTitle className="text-2xl font-semibold">
-              Mystery
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p>Spell Z-I-N-J to light up Mystery at scoop</p>
+              <ul className="list-disc list-inside">
+                <li>4-ball multiball</li>
+                <li>Ramps and lower saucers are worth 10M</li>
+                <li>Super Jackpot for defeating the gorilla in the lower playfield for 50M</li>
+                <li>Relight Super Jackpot by scoring a regular Jackpot</li>
+              </ul>
             </CardContent>
           </Card>
         </main>
