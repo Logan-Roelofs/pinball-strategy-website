@@ -267,7 +267,7 @@ export default function Page() {
             </CardHeader>
             <CardContent>
               <ul className="list-disc list-inside">
-                <li>Hit the "We Are Watching You" targets 5 times to light Video Mode</li>
+                <li>Hit the &quot;We Are Watching You&quot; targets 5 times to light Video Mode</li>
                 <li>Start Video Mode at the scoop</li>
                 <li>Avoid rocks and hippos</li>
                 <li>Hold flippers — do not tap</li>
@@ -287,7 +287,7 @@ export default function Page() {
                 <li>This is always lit, except during multiball or timed modes</li>
                 <li>Starts a video-style mode</li>
                 <li>Always go left</li>
-                <li>Hope you make it far — it's mostly risk/reward</li>
+                <li>Hope you make it far — it&apos;s mostly risk/reward</li>
               </ul>
               <div className="flex justify-center"> 
                 <img src={"/static/congomine.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
@@ -301,7 +301,7 @@ export default function Page() {
             <CardContent>
               <ul className="list-disc list-inside">
                 <li>Timed mode lasting about 20 seconds</li>
-                <li>While active, you can't really do anything else</li>
+                <li>While active, you can&apos;t really do anything else</li>
                 <li>Shoot the satellite repeatedly</li>
                 <li>Scores very little and is mostly a stall mode</li>
               </ul>
