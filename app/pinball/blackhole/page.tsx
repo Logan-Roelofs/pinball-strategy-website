@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -72,25 +73,25 @@ export default function Page() {
               <ul className="list-disc list-inside">
                 <li>Hit the 4 targets on the right side of the board to light up the captive hole.</li>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholehowtoopenthereentrygate.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholehowtoopenthereentrygate.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
                 <li>Shoot the ball into the captive hole to lock the first ball. Note: This ball lock will drain at the end of your turn, meaning this lock does not carry over.</li>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholelockcaptiveball1.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholelockcaptiveball1.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
                 <li>Go down to the bottom playfield and hit the left lock shot.</li>
                 <li>Make sure to hold up your left flipper to ski pass the ball to your right flipper, making the lock shot easier.</li>
                 <li>If playing with other people, be aware they can steal this bottom playfield ball lock. I only suggest going for it if you already have your top playfield locked, or you find yourself stuck in the bottom playfield.</li>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholehowtogodown.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholehowtogodown.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholehowtogodownandlock.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholehowtogodownandlock.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
                 <li>Now that you have 2 balls locked, go back to the bottom playfield to start a 2-ball Multiball. You will need to open the re-entry gate if you want either of those balls to make it back to the top playfield for a 3-ball Multiball.</li>
                 <li>See the section on how to open gate for Re-Entry</li>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholereentery.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholereentery.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
               </ul>
             </CardContent>
@@ -104,18 +105,18 @@ export default function Page() {
               <ul className="list-disc list-inside">
                 <li>Hit the 4 targets on the right side of the board to light up the Open Gate shot, then hit that shot.</li>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholehowtoopenthereentrygate.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholehowtoopenthereentrygate.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholereenteryshot.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholereenteryshot.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
                 <li>Hit the 4 drop targets on the left side of the bottom playfield or the 3 drop targets on the right side of the bottom playfield.</li>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholereenteryshotssss.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholereenteryshotssss.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
                 <p >If you have your re-entry gate open and the ball sinks, your ball will go back to the top playfield. When this happens try and hit the lower playfield shot again. If you do not hit any other switches the Re-Entry Gate will stay open and you have a free bottom playfield ball</p>
                 <div className="flex justify-center">
-                  <img src={"/static/blackholehowtogodown.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                  <Image src={"/static/blackholehowtogodown.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
                 </div>
               </ul>
             </CardContent>
@@ -127,20 +128,20 @@ export default function Page() {
             <CardContent>
               <p >There are two ways to increase the bonus multiplier. The first way is to hit all three lanes at the top. The second way is to make a specific shot in the bottom playfield.</p>
               <div className="flex justify-center">
-                <img src={"/static/blackholetopmult.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/blackholetopmult.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <div className="flex justify-center">
-                <img src={"/static/blackholebotmult.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/blackholebotmult.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <p>To increase the Bottom Playfield Multiplier, spell out the Black Hole drop targets in order on the top playfield. This is generally considered to be a stroke of luck.</p>
               <ul className="list-disc list-inside">
                 <p> NOTE: The 2x multiplier for the lower playfield will carry over from ball to ball. However, if you achieve a 3x multiplier and then drain, the multiplier will reset to 1x.</p>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/blackholebotmultttttt.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/blackholebotmultttttt.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <div className="flex justify-center">
-                <img src={"/static/blackholebigpoints.png"} alt={"blackholepng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/blackholebigpoints.png"} alt={"blackholepng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-5`}>

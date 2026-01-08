@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -39,7 +40,7 @@ export default function Page() {
             <CardContent>
               <p>Hit the drop targets in order of white, yellow, blue, and red to get the respective bonus multipliers. Note that you are able to hit targets out of order, but you will not get the bonus multipliers till the previous drop targets are cleared.</p>
               <div className="flex justify-center">
-                <img src={"/static/sinbaddroptargets.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/sinbaddroptargets.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-4`}>
@@ -50,7 +51,7 @@ export default function Page() {
             <CardContent>
               <p>Other than drop targets, you can also get bonuses in 2 ways. The first way is to hit the 4 rollovers on the left side of the playfield to advance the bonus indicator in the middle of the playfield. The second way is to hit the spinner in the middle of the playfield to advance the bonus indicator. You need to advance the bonus indicator 5 times to get a bonus.</p>
               <div className="flex justify-center">
-                <img src={"/static/sinbadadaddbounes.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/sinbadadaddbounes.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
           </Card>

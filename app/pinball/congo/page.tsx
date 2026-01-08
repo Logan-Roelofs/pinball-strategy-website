@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -94,7 +95,7 @@ export default function Page() {
                 <li>Or go for Super Skill Shot in the left outlane for 25M</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/congoskillshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/congoskillshot.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-3`}>
@@ -122,7 +123,7 @@ export default function Page() {
                 <li>Keep in mind you need a certain number of diamonds to light locks: 4, 8, 12, ...</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/congolockshot.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/congolockshot.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <p className="font-semibold mt-4">Once multiball is started:</p>
               <ul className="list-disc list-inside">
@@ -131,7 +132,7 @@ export default function Page() {
                 <li>Shoot the upper–upper orbit (Super Score) to collect Super Jackpot</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/congomultjack.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/congomultjack.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-5`}>
@@ -147,7 +148,7 @@ export default function Page() {
                 <li>Completing all routes is rare</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/congomap.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/congomap.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
                 <div className="table-container">
                 <table className="table-auto border-collapse border border-gray-400">
@@ -249,7 +250,7 @@ export default function Page() {
                 <li>50M (repeats for subsequent completions)</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/congogray.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/congogray.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-8`}>
@@ -274,7 +275,7 @@ export default function Page() {
                 <li>Timing is more important than speed</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/congowearewatchingyou.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/congowearewatchingyou.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-10`}>
@@ -290,7 +291,7 @@ export default function Page() {
                 <li>Hope you make it far — it&apos;s mostly risk/reward</li>
               </ul>
               <div className="flex justify-center"> 
-                <img src={"/static/congomine.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/congomine.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-11`}>
@@ -306,7 +307,7 @@ export default function Page() {
                 <li>Scores very little and is mostly a stall mode</li>
               </ul>
               <div className="flex justify-center"> 
-                <img src={"/static/congosat.png"} alt={"congopng"} className="mb-4 w-full h-auto max-w-xs"/>
+                <Image src={"/static/congosat.png"} alt={"congopng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs"/>
               </div>
             </CardContent>
             <CardHeader id={`chapter-12`}>

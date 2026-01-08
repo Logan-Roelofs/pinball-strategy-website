@@ -34,6 +34,16 @@ const books = [
     title: "Harlem Globetrotters",
     description: "Bally's 1979 Solid state pinball machine, featuring spinners spinners and more spinners."
   },
+  {
+    link: '/pinball/attackfrommars',
+    title: "Attack From Mars",
+    description: "Bally's 1995 Solid state pinball machine, featuring Martian invasions and multiball chaos."
+  },
+  {
+    link: '/pinball/medievalmadness',
+    title: "Medieval Madness",
+    description: "Williams' 1997 Solid state pinball machine, featuring castle destruction and the Battle for the Kingdom."
+  },
 ]
 
 export default function Home() {

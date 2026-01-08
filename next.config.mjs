@@ -4,5 +4,8 @@ const nextConfig = {
     output: "export",
     url: "https://logansballs.com/",
     reactStrictMode: true,
+    images: {
+        unoptimized: true,
+    },
 };
 export default nextConfig;

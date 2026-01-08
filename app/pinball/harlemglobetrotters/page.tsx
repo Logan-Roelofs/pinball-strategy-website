@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -49,7 +50,7 @@ export default function Page() {
               <p>Each drop target increases the left spinners point value from 100-200-1000-2000. This left spinner is only worth going for when at 1k or more, or as a bale out shoot.</p>              
             </CardContent>
               <div className="flex justify-center">
-                <img src={"/static/harlem.jpg"} alt={"harlem"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/harlem.jpg"} alt={"harlem"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
           </Card>
         </main>

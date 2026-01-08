@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -109,7 +110,7 @@ export default function Page() {
             <CardContent>
               <p>Plunge the ball very softly so that it will be on the top playfield. Then hit the lit-up shot on the upper playfield for a skill shot.</p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterSkillShot.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterSkillShot.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-3`}>
@@ -120,12 +121,12 @@ export default function Page() {
             <CardContent>
               <p>1. Hit light Hazards shots to increase your raft value. Each raft takes a different amount of shots 1-2-2-3-3-4-4-5-5. </p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterRaftsShots.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterRaftsShots.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <p>2. Advancing to a higher raft awards points based on the raft number (1M times the raft number)</p>
               <p>3. The raft number also influences the base Jackpot value during Multiball, calculated as 10M plus 1M times the raft number. </p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterRafts.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterRafts.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-4`}>
@@ -136,7 +137,7 @@ export default function Page() {
             <CardContent>
               <p>You can relight the Bounceback (left outlane) by hitting the three red plastic targets in the center of the playfield. If the Bounceback is already lit, completing these targets will spot a Hazard instead.</p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterBounceBack.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterBounceBack.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-5`}>
@@ -147,7 +148,7 @@ export default function Page() {
             <CardContent>
               <p>Collecting Awards: To collect an award, shoot Bigfoot Bluff when its lit (red light). To light Bigfoot Bluff, shoot Insanity Falls when its lit (yellow light). Hitting the Jet Bumpers cycles through the available awards.</p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterwhirlpoolAwardsShots.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterwhirlpoolAwardsShots.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <p>The awards, in order, are:</p>
               <ul className="list-disc list-inside">
@@ -175,7 +176,7 @@ export default function Page() {
                 <li>5X Playfield (sequence)</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterwhirlpoolAwards.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterwhirlpoolAwards.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-6`}>
@@ -186,7 +187,7 @@ export default function Page() {
             <CardContent>
               <p>Multi-Millions is the Spine Chillers unique feature, starting at 2M and increasing to 5M.</p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterSpine.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterSpine.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-7`}>
@@ -197,7 +198,7 @@ export default function Page() {
             <CardContent>
               <p> Boulder Garden increases Jet Bumper value from 50K to 300K. Every three hits triggers a Boulder Bash, making Jet Bumpers worth 500K for 20 seconds. 5X Playfield multiplies both the regular and Boulder Bash values, enabling huge scores.</p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterBoulder.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterBoulder.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-8`}>
@@ -212,7 +213,7 @@ export default function Page() {
                 <li>Rolling through a lit Inlane (spots the first unlit letter) This is the safe way.</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterRiver.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterRiver.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-9`}>
@@ -223,7 +224,7 @@ export default function Page() {
             <CardContent>
               <p>Hitting the two Hotfoot targets enough times (typically 3 or 4, but varies based on settings) starts Bigfoot Hotfoot, a 20-second mode using the current ball. Awards Bigfoot Jackpots (10M each) and spots Lost Mine items (or Camera/Cow if items are complete).</p>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterCave.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterCave.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-10`}>
@@ -248,7 +249,7 @@ export default function Page() {
                 <li>Ends when one or both balls drain.</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterLostMine.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterLostMine.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-12`}>
@@ -264,7 +265,7 @@ export default function Page() {
                 <li>Third lock: Hit each target twice, but flashing targets time out if not completed quickly.</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterLocks.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterLocks.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
               <p>During Multiball all three balls are fed to the upper right flipper. The number of balls that successfully go through Insanity Falls determines the Jackpot multiplier for the rest of that Multiball:</p>
               <ul className="list-disc list-inside">
@@ -274,7 +275,7 @@ export default function Page() {
                 <li>NOTE: If 5x is going on, the Jackpot will be 5X not 10X or 15X</li>
               </ul>
               <div className="flex justify-center">
-                <img src={"/static/WhiteWaterLocksshot.png"} alt={"WhiteWaterpng"} className="mb-4 w-full h-auto max-w-xs" />
+                <Image src={"/static/WhiteWaterLocksshot.png"} alt={"WhiteWaterpng"} width={320} height={240} className="mb-4 w-full h-auto max-w-xs" />
               </div>
             </CardContent>
             <CardHeader id={`chapter-13`}>
