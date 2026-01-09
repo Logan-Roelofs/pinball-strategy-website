@@ -49,6 +49,11 @@ const books = [
     title: "Cactus Canyon",
     description: "Bally's 1998 Solid state pinball machine, featuring Wild West shootouts, Quick Draw duels, and the High Noon wizard mode."
   },
+  {
+    link: '/pinball/dinner',
+    title: "Diner",
+    description: "Williams' 1990 Solid state pinball machine, featuring customer service gameplay, Dine-Time jackpots, and the classic diner theme."
+  },
 ]
 
 export default function Home() {
