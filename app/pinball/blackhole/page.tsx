@@ -43,11 +43,6 @@ export default function Page() {
                       Making Drop targets Count
                     </Link>
                   </li>
-                  <li>
-                    <Link href={`#chapter-6`} className="text-green-700 hover:underline">
-                      What I Do Not know
-                    </Link>
-                  </li>
                 </ul>
               </nav>
             </CardContent>
@@ -153,14 +148,6 @@ export default function Page() {
               <p >A non lit Black Hole drop target is worth 1k points while a lit one is worth 5k</p>
               <p >To lite a Black Hole drop target you just have to hit black hole in order and lite the orange arrow in front of the drop target</p>
               <p >This is the same idea with the bottom drop targets but you want to lite the right 4 targets on the top playfield to lite these drop targets on the bottom, they are normal worth 500 points but when they are lit they are worth 3k meaning if you lite your 5x bonus and your 3x playfield multiplier each drop target becomes 45k</p>
-            </CardContent>
-            <CardHeader id={`chapter-6`}>
-              <CardTitle className="text-2xl font-semibold" >
-                What I Do Not know
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p >There is definitely a non tournament high score strategy with specials and extra balls that I am not aware of, nor do I think I will ever try and become aware of.</p>
             </CardContent>
           </Card>
         </main>

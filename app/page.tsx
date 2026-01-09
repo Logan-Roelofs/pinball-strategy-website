@@ -44,6 +44,11 @@ const books = [
     title: "Medieval Madness",
     description: "Williams' 1997 Solid state pinball machine, featuring castle destruction and the Battle for the Kingdom."
   },
+  {
+    link: '/pinball/cactuscanyon',
+    title: "Cactus Canyon",
+    description: "Bally's 1998 Solid state pinball machine, featuring Wild West shootouts, Quick Draw duels, and the High Noon wizard mode."
+  },
 ]
 
 export default function Home() {
