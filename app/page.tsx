@@ -54,6 +54,11 @@ const books = [
     title: "Diner",
     description: "Williams' 1990 Solid state pinball machine, featuring customer service gameplay, Dine-Time jackpots, and the classic diner theme."
   },
+  {
+    link: '/pinball/metallica',
+    title: "Metallica",
+    description: "Stern's 2013 Solid state pinball machine, featuring Crank It Up modes, multiple multiballs, and the End of the Line wizard mode."
+  },
 ]
 
 export default function Home() {
